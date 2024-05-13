@@ -1,0 +1,25 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#box2 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+}
+
+#box3 {
+    position: relative;
+    z-index: 2;
+}
+
+#box1 {
+    background-image: url(lion.jpg);
+    background-size: cover;
+    /* background-position-y: -10px; */
+    background-position: center;
+}

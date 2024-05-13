@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 200px;
+}
+
+#logo {
+    color: orangered;
+    font-size: 25px;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    padding: 0px 3px 0px 3px;
+    margin-left: 2px;
+    border-radius: 4px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    margin: 25px;
+    padding: 25px;
+}
+
+#content {
+    height: 524px;
+}
+
+#footer {
+    background-color: #0f1111;
+    color: white;
+}

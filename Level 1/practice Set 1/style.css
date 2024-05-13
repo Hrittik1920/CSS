@@ -1,0 +1,14 @@
+#box {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.heading {
+    color: red;
+    /* text-align: center; */
+}
+
+button {
+    background-color: green;
+}

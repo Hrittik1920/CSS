@@ -1,0 +1,36 @@
+#traffic {
+    height: 400px;
+    width: 180px;
+    background-color: pink;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#redlight {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#yellowlight {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#greenlight {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 50%;
+}

@@ -1,0 +1,51 @@
+div {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: 2px solid black;
+    position: absolute;
+    /* border-radius: 50%; */
+    background-color: aquamarine;
+    /* animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    
+    animation-direction: alternate; normal/reverse/alternate-re; */
+    
+    animation: colorAnimate 2s ease-in 0.2s infinite alternate;
+}
+
+@keyframes colorAnimate {
+    0% {
+        left: 0px;
+        background-color: aquamarine;
+    }
+    50% {
+        background-color: yellow;
+    }
+    100% {
+        left: 200px;
+        /* transform: scale(1.5); */
+        background-color: red;
+        font-size: 20px;
+        color: white;
+    }
+}
+
+/* @keyframes colorAnimate {
+    from {
+        left: 0px;
+        background-color: aquamarine;
+    }
+    to {
+        left: 200px;
+        transform: scale(1.5);
+        background-color: red;
+        font-size: 20px;
+        color: white;
+    }
+} */
